@@ -68,7 +68,7 @@ body {
     line-height: 25px;
 }
 
-.botão-amarelo a {
+.botao-amarelo a {
     border: none;
     background: #FFBF0F;
     color: #0F2740;
@@ -78,4 +78,66 @@ body {
     margin-left: 205px;
     padding: 20px;
     position: absolute;
+}
+
+.section-menor-container {
+    background: ;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+}
+
+.expresso-classico-container {
+    background: #6D5D3D;
+    width: 295px;
+    height: 426px;
+    margin-top: 40px;
+}
+
+.expresso-classico-container h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    color: #FFFFFF;
+    margin: 12px 0px 0px 18px;
+}
+
+.expresso-classico-container p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    color: #FFBF0F;
+    margin: 11px 0px 0px 18px;
+}
+
+.expresso-classico-container span {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #0F2740;
+    margin: 20px 0px 0px 18px;
+}
+
+.expresso-classico-container img {
+    margin: 17px 17px 0px 17px;
+}
+
+.botao-amarelo-article a{
+    border: none;
+    background: #FFBF0F;
+    color: #0F2740;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    padding: 20px;
+    margin: 12px 0px 0px 173px;
+}
+
+#linha {
+  width: 1240px;
+  border-bottom: 5px solid #725010;
+  margin: 40px 0px 0px 100px;
 }
