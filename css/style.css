@@ -1,9 +1,5 @@
-body {
-    height: 1582px;
-}
-
 .header-container { 
-    background-image: url('/img/imagem-principal.png');
+    background-image: url('../img/imagem-principal.png');
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -32,112 +28,42 @@ body {
 }
 
 .section-maior-container {
-    background-image: url('/img/imagem-principal.png');
+    background-image: url('../img/imagem-principal.png');
     height: 668px;
     background-repeat: no-repeat;
     background-position: left -101px;
+    font-family: 'Poppins', sans-serif;
+    color: #FFFFFF;
 }
 
 .section-maior-container h2 {
+    display: inline-block;
     font-size: 32px;
-    color: #FFFFFF;
-    padding-top: 140px;
-    padding-left: 205px;
-    font-family: 'Poppins', sans-serif;
     font-weight: 700;
-    line-height: 48px;
+    margin: 144px 0px 0px 205px;
 }
 
 .section-maior-container h1 {
     font-size: 40px;
-    color: #FFFFFF;
-    padding-top: 7px;
-    padding-left: 205px;
-    font-family: 'Poppins', sans-serif;
     font-weight: 700;
     line-height: 50px;
+    margin: 8px 0px 0px 205px;
 }
 
 .section-maior-container p {
-    font: 16px;
-    color: #0F2740;
-    padding-top: 7px;
-    padding-left: 205px;
-    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
     font-weight: 500;
+    color: #0F2740;
     line-height: 25px;
+    margin: 8px 0px 0px 205px;
 }
 
-.botao-amarelo a {
-    border: none;
-    background: #FFBF0F;
-    color: #0F2740;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 500;
-    margin-top: 19px;
-    margin-left: 205px;
+.section-maior-container .botao-amarelo a {
+    display: inline-block;
+    background-color: #FFBF0F;
     padding: 20px;
-    position: absolute;
-}
-
-.section-menor-container {
-    background: ;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    gap: 20px;
-}
-
-.expresso-classico-container {
-    background: #6D5D3D;
-    width: 295px;
-    height: 426px;
-    margin-top: 40px;
-}
-
-.expresso-classico-container h3 {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
-    font-size: 25px;
-    line-height: 30px;
-    color: #FFFFFF;
-    margin: 12px 0px 0px 18px;
-}
-
-.expresso-classico-container p {
-    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
     font-weight: 500;
-    font-size: 12px;
-    line-height: 18px;
-    color: #FFBF0F;
-    margin: 11px 0px 0px 18px;
-}
-
-.expresso-classico-container span {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 24px;
     color: #0F2740;
-    margin: 20px 0px 0px 18px;
-}
-
-.expresso-classico-container img {
-    margin: 17px 17px 0px 17px;
-}
-
-.botao-amarelo-article a{
-    border: none;
-    background: #FFBF0F;
-    color: #0F2740;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 500;
-    padding: 20px;
-    margin: 12px 0px 0px 173px;
-}
-
-#linha {
-  width: 1240px;
-  border-bottom: 5px solid #725010;
-  margin: 40px 0px 0px 100px;
+    margin: 19px 0px 0px 205px;
 }
