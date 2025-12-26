@@ -1,0 +1,69 @@
+.header-container { 
+    background-image: url('../img/imagem-principal.png');
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 33px;
+    position: relative;
+    background-repeat: no-repeat;
+}
+
+.header-container nav ul{
+    display: flex;
+    gap: 68px;
+}
+
+.header-container a {
+    color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+.logo {
+    margin-left: 99px;
+}
+
+.procurar-icon {
+    margin-right: 99px;
+}
+
+.section-maior-container {
+    background-image: url('../img/imagem-principal.png');
+    height: 668px;
+    background-repeat: no-repeat;
+    background-position: left -101px;
+    font-family: 'Poppins', sans-serif;
+    color: #FFFFFF;
+}
+
+.section-maior-container h2 {
+    display: inline-block;
+    font-size: 32px;
+    font-weight: 700;
+    margin: 144px 0px 0px 205px;
+}
+
+.section-maior-container h1 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 50px;
+    margin: 8px 0px 0px 205px;
+}
+
+.section-maior-container p {
+    font-size: 16px;
+    font-weight: 500;
+    color: #0F2740;
+    line-height: 25px;
+    margin: 8px 0px 0px 205px;
+}
+
+.section-maior-container .botao-amarelo a {
+    display: inline-block;
+    background-color: #FFBF0F;
+    padding: 20px;
+    font-size: 15px;
+    font-weight: 500;
+    color: #0F2740;
+    margin: 19px 0px 0px 205px;
+}
