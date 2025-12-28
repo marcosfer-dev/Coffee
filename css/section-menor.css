@@ -1,0 +1,63 @@
+.section-menor-container {
+    display: flex;
+    gap: 20px;
+    margin: 40px 0px 0px 100px;
+}
+
+.expresso-classico-container img{
+    margin: 17px 17px 0px 17px;
+}
+
+.expresso-classico-container h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    color: #FFFFFF;
+    margin: 12px 0px 0px 18px;
+}
+
+.expresso-classico-container p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    color: #FFBF0F;
+    margin: 11px 0px 0px 18px;
+    line-height: 18px;
+}
+
+.expresso-classico-container span {
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    color: #0F2740;
+    margin: 20px 0px 0px 18px;
+}
+
+.expresso-classico-container .botao-amarelo-article {
+    background: #FFBF0F;
+    height: 45px;
+    width: 120px;
+    margin: -35px 0px 0px 157px;
+}
+
+.expresso-classico-container .botao-amarelo-article a {
+    display: inline-block;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    color: #0F2740;
+    margin: 15px 0px 0px 30px;
+}
+
+.expresso-classico-container {
+    background-color: #6D5D3D;
+    height: 435px;
+}
+
+#linha {
+    background-color: #6D5D3D;
+    height: 5px;
+    width: 1240px;
+    margin: 40px 0px 0px 100px;
+}
